@@ -1,6 +1,6 @@
 {% set name = "gast" %}
-{% set version = "0.2.1.post0" %}
-{% set sha256 = "15b7a4a16522eeb3344516b4b94024f84c6d96dca4540564978cb7422d7ebb53" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "fe939df4583692f0512161ec1c880e0a10e71e6a232da045ab8edd3756fbadf0" %}
 
 package:
   name: {{ name|lower }}
