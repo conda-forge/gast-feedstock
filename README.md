@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About gast
 ==========
 
@@ -20,8 +16,15 @@ versions, as produced by ast.parse from the standard ast module.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/gast-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/gast-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3907&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gast-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
