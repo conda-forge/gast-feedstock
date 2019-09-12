@@ -1,6 +1,6 @@
 {% set name = "gast" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "b3ff536c7637979ca7bca9c73e73afbda883a714bf167062b460e624c28bffcc" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "cc987dad3bea3104cd1cc4832c7d864023eb4578043b63ee061c7b42febd4c16" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
 
 test:
   imports:
-    - gast 
+    - gast
 
 about:
   home: https://github.com/serge-sans-paille/gast
@@ -42,4 +42,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - CurtLH 
+    - CurtLH
+    - martinRenou
