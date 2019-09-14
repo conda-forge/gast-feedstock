@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@CurtLH](https://github.com/CurtLH/)
+* [@martinRenou](https://github.com/martinRenou/)
 
