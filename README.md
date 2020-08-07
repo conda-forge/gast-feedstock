@@ -5,7 +5,7 @@ Home: https://github.com/serge-sans-paille/gast
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A generic AST to represent Python2 and Python3's Abstract Syntax Tree(AST).
 
