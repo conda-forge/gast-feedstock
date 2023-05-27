@@ -150,5 +150,6 @@ Feedstock Maintainers
 =====================
 
 * [@CurtLH](https://github.com/CurtLH/)
+* [@conda-forge/pythran](https://github.com/conda-forge/pythran/)
 * [@martinRenou](https://github.com/martinRenou/)
 
