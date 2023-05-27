@@ -47,3 +47,4 @@ extra:
   recipe-maintainers:
     - CurtLH
     - martinRenou
+    - conda-forge/pythran
