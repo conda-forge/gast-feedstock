@@ -1,6 +1,6 @@
 {% set name = "gast" %}
-{% set version = "0.5.3" %}
-{% set sha256 = "cfbea25820e653af9c7d1807f659ce0a0a9c64f2439421a7bba4f0983f532dea" %}
+{% set version = "0.5.4" %}
+{% set sha256 = "9c270fe5f4b130969b54174de7db4e764b09b4f7f67ccfc32480e29f78348d97" %}
 
 package:
   name: {{ name|lower }}
@@ -22,6 +22,9 @@ requirements:
     - pip
   run:
     - python  >=3.4
+  run_constrained:
+    # required compatibility with gast 0.5.4 only landed in 0.12.2
+    - pythran >=0.12.2
 
 test:
   imports:
@@ -44,3 +47,4 @@ extra:
   recipe-maintainers:
     - CurtLH
     - martinRenou
+    - conda-forge/pythran
