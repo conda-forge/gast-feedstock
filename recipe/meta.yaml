@@ -8,25 +8,27 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python  >=3.4
+    - python {{ python_min }}
     - pip
   run:
-    - python  >=3.4
+    - python >={{ python_min }}
   run_constrained:
     # required compatibility with gast 0.5.4 only landed in 0.12.2
     - pythran >=0.12.2
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - gast
 
